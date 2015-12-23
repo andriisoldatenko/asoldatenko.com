@@ -2,7 +2,7 @@ High performance functional tests based on Selenium - SeleniumCamp 2015
 #######################################################################
 
 :category: talks
-:date: 2015-03-22
+:date: 2012-12-03 10:20
 
 
 Abstract

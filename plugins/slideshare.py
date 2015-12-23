@@ -62,8 +62,8 @@ class SlideShare(Directive):
         embed_block = embed_block[:-1] + '></iframe>'
 
         return [
-            nodes.raw('', embed_block, format='html'),
-            nodes.raw('', '</div>', format='html'),
+            nodes.raw('', embed_block, format='html')
+            # nodes.raw('', '</div>', format='html'),
         ]
 
 

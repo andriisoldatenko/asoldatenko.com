@@ -4,9 +4,9 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Andrii Soldatenko'
 SITENAME = u'Python Geek'
-SITESUBTITLE = u'Blog about interesting things'
+SITEDESCRIPTION = u'blog about interesting things'
 #SITEURL = 'https://asoldatenko.com/'
-SITEDESCRIPTION = 'Andrii Soldatenko blog about Python'
+# SITEDESCRIPTION = 'Andrii Soldatenko blog about Python'
 
 ARTICLE_PATHS = ['blog']
 
