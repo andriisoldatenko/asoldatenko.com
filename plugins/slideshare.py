@@ -1,27 +1,71 @@
-import pelican
-import re
+from __future__ import unicode_literals
 
-SLIDESHARE_MARKER = re.compile('({|)slideshare\s+id=(?P<id>\d+)&amp;[\w\s\&\=\_\-]+(}|)')
-SLIDESHARE_IFRAME = ('<iframe src="http://slideshare.net/slideshow'
-					 '/embed_code/%s" width="590" height="481" '
-					 'marginwidth="0" marginheight="0" scrolling="no"></iframe>')
+from docutils import nodes
+from docutils.parsers.rst import directives, Directive
 
 
-def slideshare_iframe(**kwargs):
-	return SLIDESHARE_IFRAME % kwargs['id']
+class SlideShare(Directive):
+    """ Embed Slideshare slides in posts.
 
+    Based on the YouTube directive by Brian Hsu:
+    https://gist.github.com/1422773
 
-def replace_slideshare_iframe(match):
-	return slideshare_iframe(**match.groupdict())
+    Usage:
+    .. slideshare:: VIDEO_ID
+    """
 
+    def boolean(argument):
+        """Conversion function for yes/no True/False."""
+        value = directives.choice(argument, ('yes', 'True', 'no', 'False'))
+        return value in ('yes', 'True')
 
-def content_object_init(instance):
-	if not instance._content:
-		return
+    required_arguments = 1
+    optional_arguments = 5
+    option_spec = {
+        'class': directives.unchanged,
+        'width': directives.positive_int,
+        'height': directives.positive_int,
+        'marginwidth': directives.positive_int,
+        'marginheight': directives.positive_int,
+        'scrolling': boolean,
+    }
 
-	content = instance._content
-	instance._content = re.sub(SLIDESHARE_MARKER, replace_slideshare_iframe, content)
+    final_argument_whitespace = False
+    has_content = False
+
+    def run(self):
+        slideshare_id = self.arguments[0].strip()
+        url = 'http://slideshare.net/slideshow/embed_code/{}'.format(slideshare_id)
+
+        width = self.options['width'] if 'width' in self.options else None
+        height = self.options['height'] if 'height' in self.options else None
+        marginwidth = self.options['marginwidth'] if 'marginwidth' in self.options else 0
+        marginheight = self.options['marginheight'] if 'marginheight' in self.options else 0
+        scrolling = self.options['scrolling'] if 'scrolling' in self.options else "no"
+
+        # ('<iframe src="http://slideshare.net/slideshow'
+                   # '/embed_code/%s" width="590" height="481" '
+                   # 'marginwidth="0" marginheight="0" scrolling="no"></iframe>')
+        iframe_arguments = [
+            (width, 'width="{}"'),
+            (height, 'height="{}"'),
+            (marginwidth, 'marginwidth="{}"'),
+            (marginheight, 'marginheight="{}"'),
+            (scrolling, 'scrolling="{}"')
+        ]
+
+        embed_block = '<iframe src="{}" '.format(url)
+
+        for value, format in iframe_arguments:
+            embed_block += (format + ' ').format(value) if value else ''
+
+        embed_block = embed_block[:-1] + '></iframe>'
+
+        return [
+            nodes.raw('', embed_block, format='html'),
+            nodes.raw('', '</div>', format='html'),
+        ]
 
 
 def register():
-	pelican.signals.content_object_init.connect(content_object_init)
+    directives.register_directive('slideshare', SlideShare)

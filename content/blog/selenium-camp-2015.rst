@@ -43,5 +43,6 @@ Slides
 
 My slides from `Selenium Camp`_ 2015.
 
-{slideshare id=45278504&doc=selenium-camp2015-andriisoldatenko}
-
+.. slideshare:: 45278504
+    :width: 590
+    :height: 481
