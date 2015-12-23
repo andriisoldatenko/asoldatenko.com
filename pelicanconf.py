@@ -27,12 +27,9 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-
+DISPLAY_PAGES_ON_MENU = True
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+# LINKS = ((),)
 
 # Social widget
 SOCIAL = (('@a_soldatenko', 'http://twitter.com/a_soldatenko'),
@@ -44,7 +41,7 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 THEME = 'pelicanyan'
 GA_ACCOUNT = 'UA-12344321-1'
-TWITTER_ACCOUNT = 'getpelican'
+TWITTER_ACCOUNT = '@a_soldatenko'
 DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'sitemap', 'robots', 'humans')
 ROBOTS_SAVE_AS = 'robots.txt'
 HUMANS_SAVE_AS = 'humans.txt'

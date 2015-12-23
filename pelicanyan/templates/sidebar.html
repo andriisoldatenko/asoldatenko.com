@@ -16,6 +16,12 @@ styles, `#sidebar-checkbox` for behavior. -->
       <a class="sidebar-nav-item" href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a>
   {% endfor %}
 
+  {% if DISPLAY_PAGES_ON_MENU %}
+    {% for p in pages %}
+        <a class="sidebar-nav-item" href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
+    {% endfor %}
+  {% endif %}
+
   {% for title, href in LINKS %}
   <a class="sidebar-nav-item" href="{{ href }}">{{ title }}</a>
   {% endfor %}
