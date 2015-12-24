@@ -35,7 +35,7 @@ class SlideShare(Directive):
 
     def run(self):
         slideshare_id = self.arguments[0].strip()
-        url = 'http://slideshare.net/slideshow/embed_code/{}'.format(slideshare_id)
+        url = 'https://www.slideshare.net/slideshow/embed_code/key/{}'.format(slideshare_id)
 
         width = self.options['width'] if 'width' in self.options else None
         height = self.options['height'] if 'height' in self.options else None

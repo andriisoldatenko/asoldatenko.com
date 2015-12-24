@@ -43,6 +43,6 @@ Slides
 
 My slides from `Selenium Camp`_ 2015.
 
-.. slideshare:: 45278504
+.. slideshare:: vVlYY6tEHY772N
     :width: 590
     :height: 481

@@ -31,6 +31,6 @@ Slides
 It's was my first programming conferense and slides you can find below from `PyCon Ukraine`_ 2014.
 
 
-.. slideshare:: 45278504
+.. slideshare:: BT6gF9JcMa9Ace
     :width: 590
     :height: 481

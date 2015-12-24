@@ -25,6 +25,6 @@ Slides
 It's was my first programming conferense and slides you can find below from `PyCon Belarus`_ 2015.
 
 
-.. slideshare:: 51164658
+.. slideshare:: heAnhP49B4Gixt
     :width: 590
     :height: 481

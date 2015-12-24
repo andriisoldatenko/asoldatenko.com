@@ -19,6 +19,6 @@ My slides from `PyCon Russia`_ 2015.
 .. _PyCon Russia: http://pycon.ru/2015/program/content/soldatenko/
 
 
-.. slideshare:: 52962430
+.. slideshare:: tn8A4BZ8oaOCVf
     :width: 590
     :height: 481

@@ -23,6 +23,9 @@
     </h1>
     <span class="post-date">{{ article.locale_date }}</span>
     {{ article.content }}
+    <h2>Comments</h2>
+  {% include 'disqus.html' %}
   </div>
 </div>
+
 {% endblock %}
