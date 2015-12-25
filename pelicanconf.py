@@ -58,4 +58,4 @@ PLUGINS = [
     'pelican_youtube'
 ]
 
-DISQUS_SITENAME='asoldatenko'
+DISQUS_SITENAME = 'asoldatenko2'
