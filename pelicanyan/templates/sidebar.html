@@ -10,10 +10,9 @@ styles, `#sidebar-checkbox` for behavior. -->
   </div>
 
   <nav class="sidebar-nav">
-  <a class="sidebar-nav-item" href="/">All</a>
 
-  {% for category, articles in categories %}
-      <a class="sidebar-nav-item" href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a>
+  {% for title, href in LINKS %}
+    <a class="sidebar-nav-item" href="{{ href }}">{{ title }}</a>
   {% endfor %}
 
   {% if DISPLAY_PAGES_ON_MENU %}
@@ -22,9 +21,10 @@ styles, `#sidebar-checkbox` for behavior. -->
     {% endfor %}
   {% endif %}
 
-  {% for title, href in LINKS %}
-  <a class="sidebar-nav-item" href="{{ href }}">{{ title }}</a>
+  {% for category, articles in categories %}
+      <a class="sidebar-nav-item" href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a>
   {% endfor %}
+
   </nav>
 
   <div class="sidebar-item">

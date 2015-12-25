@@ -29,7 +29,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 DISPLAY_PAGES_ON_MENU = True
 # Blogroll
-# LINKS = ((),)
+LINKS = (("Home", SITEURL),)
 
 # Social widget
 SOCIAL = (('@a_soldatenko', 'http://twitter.com/a_soldatenko'),
