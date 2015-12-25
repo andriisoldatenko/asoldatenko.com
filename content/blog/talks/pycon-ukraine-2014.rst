@@ -2,7 +2,7 @@ PyCon UA 2014 - Automated Functional Tests Based On Selenium For Django Projects
 ################################################################################
 
 :category: talks
-:date: 2012-12-03 10:20
+:date: 2014-11-02 10:20
 
 
 Abstract

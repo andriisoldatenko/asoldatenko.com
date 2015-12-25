@@ -2,7 +2,7 @@ PyCon Belarus 2015 - High performance functional tests
 ######################################################
 
 :category: talks
-:date: 2015-05-18 20:30:15
+:date: 2015-01-30 20:30:15
 
 
 Video
