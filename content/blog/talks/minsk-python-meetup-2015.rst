@@ -27,7 +27,7 @@ Video
 
 You can watch video from `Python Minsk Meetup`_ 2015. (1,507 watches on youtube)
 
-.. _Python Minsk Meetup: http://by.pycon.org/english/
+.. _Python Minsk Meetup: https://python-meetup.timepad.ru/event/233333/
 
 
 .. youtube:: 0mTO6Ey6Pf4
