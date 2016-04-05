@@ -40,7 +40,8 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 THEME = 'pelicanyan'
-GA_ACCOUNT = 'UA-12344321-1'
+GA_ACCOUNT = "UA-76003429-1"
+GOOGLE_ANALYTICS = "UA-76003429-1"
 TWITTER_ACCOUNT = 'a_soldatenko'
 DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'sitemap', 'robots', 'humans')
 ROBOTS_SAVE_AS = 'robots.txt'
