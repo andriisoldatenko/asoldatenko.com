@@ -28,3 +28,14 @@ My slides from `Selenium Camp`_ 2016.
 .. slideshare:: 232IZKRfCUIdUC
     :width: 595
     :height: 485
+
+
+About Selenim Camp 2016 Conference
+``````````````````````````````````
+
+Selenium Camp is automated testing conference in Europe, which is focused on usage of Selenium Webdriver.
+
+.. youtube:: liQxXvXg0Uc
+    :align: center
+    :width: 750
+    :height: 500
