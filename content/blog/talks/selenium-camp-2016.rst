@@ -18,6 +18,17 @@ reason why I am pleased to share with you my acquired experience in my
 presentation.
 
 
+Video
+`````
+
+You can find my video from `Selenium Camp`_ 2016.
+
+.. youtube:: V2lNUNYqTps
+    :align: center
+    :width: 750
+    :height: 500
+
+
 Slides
 ``````
 
