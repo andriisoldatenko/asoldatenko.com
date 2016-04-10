@@ -1,13 +1,15 @@
 Title: About Me
 
-My name is [Andrii Soldatenko](http://asoldatenko.com) and I like testing and programming. I'm working as Software Engineer in [DataRobot](http://www.datarobot.com/). Also I'm working as [Python Backend Developer](http://www.toptal.com/resume/andrii-soldatenko) via [toptal](https://www.toptal.com/#connect-fantastic-computer-engineers) under social network.
+My name is [Andrii Soldatenko](http://asoldatenko.com) and I like testing and programming. I'm CTO in [Persollo](https://persollo.com/). Also I'm working as [Python Backend Developer](http://www.toptal.com/resume/andrii-soldatenko) via [toptal](https://www.toptal.com/#connect-fantastic-computer-engineers) under social network.
 
-I boast expertise as a Python and Ruby developer with strong hard and soft skills. I have deep knowledge of automated-testing and really understands how to assess and improve project quality. I like to solve difficult tasks, algorithms and take part in sport programming contests. I'm also interested in databases and unix based operating systems and has fallen in love with natural language processing and text mining.
+I boast expertise as a Python and Golang developer with strong hard and soft skills. I have deep knowledge of automated-testing and really understands how to assess and improve project quality. I like to solve difficult tasks, algorithms and take part in sport programming contests. I'm also interested in databases and unix based operating systems and has fallen in love with natural language processing and text mining.
 
 ### My current work:
 * [https://persice.com/](https://persice.com/) - social network
 * [https://asoldatenko.com/](https://asoldatenko.com/) - my blog
+* [https://persollo.com/](https://persollo.com/) - Persollo is an instant check-out e-commerce platform for online businesses of any scale, for bloggers and digital magazines that are looking for the ways to monetise their content, increase size of basket and conversion. PERSOLLO works via simple URL links in any part of your website, social networks (Facebook, Twitter, Instagram), blogs, text message or E-mail. Sell to impulse buyers in a blink bypassing lengthy standard checkout. Persollo operates on the pay-as-you-sell model. No set up fees and no technical skills required.
 
 ### Previous backend work:
 * [http://algo.com/](http://algo.com/) - Algo Is Your Custom News Source. (ex. SkyGrid)
 * [http://worldoftanks.com/](http://worldoftanks.com/) - Backend of WoT XMPP Chat.
+* [http://www.datarobot.com/](http://www.datarobot.com/) - DataRobot is a Boston-based startup that builds a cloud-based product to help data scientists of all levels build and deploy better predictive models, faster.
