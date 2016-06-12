@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Andrii Soldatenko'
-SITENAME = u'Python Geek'
-SITEDESCRIPTION = u'blog about interesting things'
+SITENAME = u'Python Geek blog'
+SITEDESCRIPTION = u'(Graphs)-[:ARE]->(Everywhere)'
 SITEURL = 'https://asoldatenko.com/'
 # SITEDESCRIPTION = 'Andrii Soldatenko blog about Python'
 
