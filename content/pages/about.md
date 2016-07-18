@@ -4,6 +4,11 @@ My name is [Andrii Soldatenko](http://asoldatenko.com) and I like testing and pr
 
 I boast expertise as a Python and Golang developer with strong hard and soft skills. I have deep knowledge of automated-testing and really understands how to assess and improve project quality. I like to solve difficult tasks, algorithms and take part in sport programming contests. I'm also interested in databases and unix based operating systems and has fallen in love with natural language processing and text mining.
 
+### Follow me:
+* [https://twitter.com/a_soldatenko/](twitter)
+* [https://facebook.com/andrii.soldatenko/](facebook)
+* [https://github.com/andriisoldatenko/](github)
+
 ### My current work:
 * [https://persice.com/](https://persice.com/) - social network
 * [https://asoldatenko.com/](https://asoldatenko.com/) - my blog

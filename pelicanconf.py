@@ -50,7 +50,7 @@ SITEMAP_SAVE_AS = 'sitemap.xml'
 DEFAULT_LANG = 'en'
 DATE_FORMATS = { 'en': '%B %d, %Y', }
 STATIC_PATHS = ['static', 'images', 'favicon.ico']
-TYPOGRIFY=True
+TYPOGRIFY = True
 
 PLUGIN_PATHS = ['plugins']
 
@@ -60,3 +60,12 @@ PLUGINS = [
 ]
 
 DISQUS_SITENAME = 'asoldatenko2'
+
+DISPLAY_CATEGORIES_ON_MENU = True
+
+# Social widget
+SOCIAL = (
+    ('gitorious', 'https://gitorious.org/~hook'),
+    ('github', 'https://github.com/silverhook'),
+    ('friendica', 'https://friendica.free-beer.ch/profile/hook'),
+)
