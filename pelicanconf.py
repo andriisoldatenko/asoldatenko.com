@@ -49,7 +49,7 @@ HUMANS_SAVE_AS = 'humans.txt'
 SITEMAP_SAVE_AS = 'sitemap.xml'
 DEFAULT_LANG = 'en'
 DATE_FORMATS = { 'en': '%B %d, %Y', }
-STATIC_PATHS = ['static', 'images', 'favicon.ico']
+STATIC_PATHS = ['static', 'images', 'pdfs', 'favicon.ico']
 TYPOGRIFY = True
 
 PLUGIN_PATHS = ['plugins']
