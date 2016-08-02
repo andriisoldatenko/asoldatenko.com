@@ -38,7 +38,7 @@ SOCIAL = (('@a_soldatenko', 'http://twitter.com/a_soldatenko'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 THEME = 'pelicanyan'
 GA_ACCOUNT = "UA-76003429-1"
 GOOGLE_ANALYTICS = "UA-76003429-1"
