@@ -6,15 +6,8 @@ AUTHOR = u'Andrii Soldatenko'
 SITENAME = u'Python Geek blog'
 SITEDESCRIPTION = u'(Graphs)-[:ARE]->(Everywhere)'
 SITEURL = 'https://asoldatenko.com/'
-# SITEDESCRIPTION = 'Andrii Soldatenko blog about Python'
-
 ARTICLE_PATHS = ['blog']
-
-
 PATH = 'content'
-
-#ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
-#ARTICLE_URL = '{date:%Y}/{slug}.html'
 GITHUB_URL = 'http://github.com/andriisoldatenko/'
 
 TIMEZONE = 'Europe/Paris'
