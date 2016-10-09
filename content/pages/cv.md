@@ -3,6 +3,7 @@ Date: 2016-10-07 10:20
 Modified: 2016-10-07 10:20
 Category: Python
 Tags: cv
+Slug: cv
 Authors: Andrii Soldatenko
 
 ## Summary
@@ -26,6 +27,7 @@ CI/CD | Jenkins, TeamCity, fabric, Vagrant, Docker, Ansible, docker, VPS
 Version control systems: | Git, SVN
 Engineering Software | Matlab, numpy, scipy, nltk
 Software | nginx, gunicorn, celery, openssl, GeoIP, heroku, github
+Libraries/APIs
 
 ## Professional experience:
 `04/2016 - present` - **CTO at Ethoos, remote**
