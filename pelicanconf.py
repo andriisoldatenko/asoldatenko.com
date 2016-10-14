@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Andrii Soldatenko'
 SITENAME = u'Python Geek blog'
+SITESUBTITLE = u''
 SITEDESCRIPTION = u'(Graphs)-[:ARE]->(Everywhere)'
 SITEURL = 'https://asoldatenko.com/'
 ARTICLE_PATHS = ['blog']
@@ -13,6 +14,19 @@ GITHUB_URL = 'http://github.com/andriisoldatenko/'
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+}
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -21,8 +35,11 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 DISPLAY_PAGES_ON_MENU = True
+ARCHIVES_SAVE_AS = 'archives.html'
+
 # Blogroll
-LINKS = (("Home", SITEURL),)
+LINKS = (("Home", SITEURL),
+         ("Archive", ''.join((SITEURL, ARCHIVES_SAVE_AS))))
 
 # Social widget
 SOCIAL = (('@a_soldatenko', 'http://twitter.com/a_soldatenko'),
@@ -49,7 +66,9 @@ PLUGIN_PATHS = ['plugins']
 
 PLUGINS = [
     'slideshare',
-    'pelican_youtube'
+    'pelican_youtube',
+    'neighbors',
+    'sitemap'
 ]
 
 DISQUS_SITENAME = 'asoldatenko2'

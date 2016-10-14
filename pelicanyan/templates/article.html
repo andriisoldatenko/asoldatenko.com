@@ -23,6 +23,24 @@
     </h1>
     <span class="post-date">{{ article.locale_date }}</span>
     {{ article.content }}
+    <div class="pagination">
+        <ul>
+            {% if article.prev_article %}
+                <span class="pagination-item">
+                    <a href="{{ SITEURL }}/{{ article.prev_article.url}}">
+                        {{ article.prev_article.title }}
+                    </a>
+                </span>
+            {% endif %}
+            {% if article.next_article %}
+                <span class="pagination-item">
+                    <a href="{{ SITEURL }}/{{ article.next_article.url}}">
+                        {{ article.next_article.title }}
+                    </a>
+                </span>
+            {% endif %}
+        </ul>
+    </div>
     <h2>Comments</h2>
   {% include 'disqus.html' %}
   </div>

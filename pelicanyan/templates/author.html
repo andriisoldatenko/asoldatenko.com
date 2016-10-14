@@ -2,5 +2,19 @@
 
 {% block title %}{{ SITENAME }} - Articles by {{ author }}{% endblock %}
 {% block content_title %}
-<h2>Articles by {{ author }}</h2>
+<h2>Articles by: </h2>
+    <span>
+        <!-- SEO: vcard -->
+        <address id="hcard-Andrii-Soldatenko" class="vcard author">
+            <a class="name" href="https://asoldatenko.com/author/andrii-soldatenko.html">Andrii Soldatenko</a>
+            <img src="https://asoldatenko.com/theme/img/profile.png" alt="photo of Andrii Soldatenko" class="photo"/>
+            <span class="title">Python Backend Developer</span>
+            <a class="url" href="https://asoldatenko.com">asoldatenko.com</a>
+            <a class="email" href="mailto:andrii.soldatenko@gmail.com">andrii.soldatenko@gmail.com</a>
+            <span class="address">
+                <span class="region">Kyiv</span>
+                <span class="country-name">Ukraine</span>
+            </span>
+        </address>
+    </span>
 {% endblock %}
