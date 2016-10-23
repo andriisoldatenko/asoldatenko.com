@@ -14,9 +14,11 @@ Authors: Andrii Soldatenko
 - [What are the various online programming contests? by quora](https://www.quora.com/What-are-the-various-online-programming-contests)
 
 #### Books
-- [Introduction to Algorithms, 3rd Edition (MIT Press) by Thomas H. Cormen et al.](https://amzn.com/0262033844)
-- [Algorithm Design by Jon Kleinberg and Éva Tardos](https://amzn.com/0321295358)
+- [Introduction to Algorithms, 3rd Edition (MIT Press) by Thomas H. Cormen et al.](https://amzn.com/0262033844) - well-known CLRS book, one of my favorite book especially recommended before [Google interview](How should I prepare for my Google interview if I have 1 month left?).
+- [Algorithm Design by Jon Kleinberg and Éva Tardos](https://amzn.com/0321295358) 
+- [Algorithms by Sanjoy Dasgupta](https://amzn.com/0073523402)
 - [The Algorithm Design Manual by Steven S Skiena](https://amzn.com/1849967202)
+- [Algorithms  4th Edition by Robert Sedgewick and Kevin Wayne](https://amzn.com/1849967202)
 - [Programming Pearls (2nd Edition) by Jon Bentley](https://amzn.com/0201657880)
 
 #### Materials & articles

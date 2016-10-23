@@ -9,6 +9,7 @@ Authors: Andrii Soldatenko
 - [A Web Crawler With asyncio Coroutines](http://aosabook.org/en/500L/a-web-crawler-with-asyncio-coroutines.html) by [A. Jesse Jiryu Davis](https://emptysqua.re/blog/) and [Guido van Rossum](https://gvanrossum.github.io/)
 - [FAT Python](http://faster-cpython.readthedocs.io/fat_python.html) by [Victor Stinner](http://haypo-notes.readthedocs.io/)
 - [Unyielding - Problem: Threads Are Bad](https://glyph.twistedmatrix.com/2014/02/unyielding.html) by [Glyph](http://glyph.twistedmatrix.com/) [twisted](https://twistedmatrix.com/trac/) creator
+- [uvloop: Blazing fast Python networking](https://magic.io/blog/uvloop-blazing-fast-python-networking/) by [Yury Selivanov](https://github.com/1st1)
 - [aiohttp http server tutorial](http://aiohttp.readthedocs.io/en/stable/tutorial.html#aiohttp-tutorial) by [me](https://asoldatenko.com) 
 
 ## Books:
