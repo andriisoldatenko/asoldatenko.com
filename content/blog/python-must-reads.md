@@ -11,6 +11,9 @@ Authors: Andrii Soldatenko
 - [Unyielding - Problem: Threads Are Bad](https://glyph.twistedmatrix.com/2014/02/unyielding.html) by [Glyph](http://glyph.twistedmatrix.com/) [twisted](https://twistedmatrix.com/trac/) creator
 - [uvloop: Blazing fast Python networking](https://magic.io/blog/uvloop-blazing-fast-python-networking/) by [Yury Selivanov](https://github.com/1st1)
 - [aiohttp http server tutorial](http://aiohttp.readthedocs.io/en/stable/tutorial.html#aiohttp-tutorial) by [me](https://asoldatenko.com) 
+- [Some thoughts on asynchronous API design in a post-async/await world](https://vorpus.org/blog/some-thoughts-on-asynchronous-api-design-in-a-post-asyncawait-world/) by [Nathaniel J. Smith](https://vorpus.org/)
+- [Django channels](https://channels.readthedocs.io/en/stable/) by [Andrew Godwin](https://twitter.com/andrewgodwin)
+- [Asynchronous Python and Databases](http://techspot.zzzeek.org/2015/02/15/asynchronous-python-and-databases/) by [Mike Bayer](https://twitter.com/zzzeek)
 
 ## Books:
 - [The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/) by [Kenneth Reitz](http://www.kennethreitz.org/) author of Python HTTP [Requests](https://github.com/kennethreitz/requests) for Humans™
