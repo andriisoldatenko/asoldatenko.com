@@ -12,6 +12,29 @@ Fibonacci sequence.
 
 ## Recursive approach
 ```
-def fib(n):
-    return fib(n - 1) + fib(n - 2) if n > 2 else 1
+def fibonacci(n):
+    if n < 2:
+        return n
+    return fibonacci(n - 2) + fibonacci(n - 1)
+```
+
+## Recursive approach using caching
+```
+import functools
+
+
+@functools.lru_cache()
+def fibonacci(n):
+    if n < 2:
+        return n
+    return fibonacci(n - 2) + fibonacci(n - 1)
+```
+
+## 
+```
+def fibonacci():
+    a, b = 0, 1
+    while True:
+        yield a
+    a, b = b, a + b
 ```
