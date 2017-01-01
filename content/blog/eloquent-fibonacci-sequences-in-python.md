@@ -93,4 +93,5 @@ $ python3 fibonacci_generator.py # On my MacBook Pro (Mid 2015) 2.5 GHz Intel Co
 ## About timeit instead of conclusion.
 Also keep in mind:
 > Note By default, timeit() temporarily turns off garbage collection during the timing. The advantage of this approach is that it makes independent timings more comparable. This disadvantage is that GC may be an important component of the performance of the function being measured. If so, GC can be re-enabled as the first statement in the setup string.
+
 More info about timeit [Lib/timeit.py](https://hg.python.org/cpython/file/2.7/Lib/timeit.py)
