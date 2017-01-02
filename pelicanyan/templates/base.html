@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="robots" content="index, follow">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-
+    {% block rel_canonical %}
+        <link rel="canonical" href="{{ SITEURL }}">
+    {% endblock %}
     {% block title %}<title>{{ SITENAME }}</title>{% endblock title %}
     {% block description %}
         <meta name="description" content="{{ SITEDESCRIPTION }}">

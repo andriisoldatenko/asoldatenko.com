@@ -2,6 +2,7 @@
 {% block head %}
   {{ super() }}
   {% block title %}<title>{{ article.title }} | {{ SITENAME }}</title>{% endblock title %}
+  {% block rel_canonical %}<link rel="canonical" href="{{ SITEURL }}/{{ article.url }}">{% endblock %}
   {% block description %}
       <meta property="og:title" content="{{ article.title|striptags }}">
       {% for keyword in article.keywords %}
