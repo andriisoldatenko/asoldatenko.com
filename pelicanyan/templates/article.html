@@ -1,17 +1,23 @@
 {% extends "base.html" %}
 {% block head %}
   {{ super() }}
-  {% for keyword in article.keywords %}
-    <meta name="keywords" contents="{{keyword}}" />
-  {% endfor %}
+  {% block title %}<title>{{ article.title }} | {{ SITENAME }}</title>{% endblock title %}
+  {% block description %}
+      <meta property="og:title" content="{{ article.title|striptags }}">
+      {% for keyword in article.keywords %}
+        <meta name="keywords" contents="{{keyword}}" />
+        <meta name="news_keywords" content="{{keyword}}">
+      {% endfor %}
 
-  {% for description in article.description %}
-    <meta name="description" contents="{{description}}" />
-  {% endfor %}
+      {% for description in article.description %}
+        <meta name="description" contents="{{description}}" />
+        <meta property="og:description" content="{{ description }}">
+      {% endfor %}
 
-  {% for tag in article.tags %}
-    <meta name="tags" contents="{{tag}}" />
-  {% endfor %}
+      {% for tag in article.tags %}
+        <meta name="tags" contents="{{tag}}" />
+      {% endfor %}
+  {% endblock %}
 
 {% endblock %}
 
