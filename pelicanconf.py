@@ -68,7 +68,8 @@ PLUGINS = [
     'slideshare',
     'pelican_youtube',
     'neighbors',
-    'sitemap'
+    'sitemap',
+    'embed_tweet'
 ]
 
 DISQUS_SITENAME = 'asoldatenko2'

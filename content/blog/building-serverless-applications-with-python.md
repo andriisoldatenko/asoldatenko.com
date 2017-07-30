@@ -8,8 +8,19 @@ Authors: Andrii Soldatenko
 
 Serverless is new trend in software development. It’s confusing many developers 
 around the world, let’s try to find origins of term “Serverless”. 
-First time Ken Fromm in 2012 use this term in his article. Later Badri Janakiraman 
-mentioned that he also heard about usage of the term in 2012 in context 
+First time Ken Fromm in 2012 use this term in his article. 
+(Ken added a bit of clarification in the comments to give credit where 
+credit is due.)
+
+@frommww/status/891719729932517376
+
+@frommww/status/891719804888817664
+
+@frommww/status/891719886375747584
+
+@frommww/status/891720299976179712
+
+Later Badri Janakiraman mentioned that he also heard about usage of the term in 2012 in context 
 of Continuous Integration. For example Travis CI, where you can delegate 
 Continuous Integration and testing of your project to Travis CI. 
 
