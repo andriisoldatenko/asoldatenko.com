@@ -1,4 +1,4 @@
-from fabric.api import *
+from fabric import Connection
 import fabric.contrib.project as project
 import os
 import shutil
