@@ -1,36 +1,62 @@
 Title: Andrii Soldatenko
-Date: 2016-10-07 10:20
-Modified: 2016-10-07 10:20
+Date: 2018-05-31 10:20
+Modified: 2018-05-31 10:20
 Category: Python
 Tags: cv
 Slug: cv
 Authors: Andrii Soldatenko
 
 ## Summary
-Andrii boasts expertise as a Python and Golang developer with strong hard and soft skills. He is Speaker at many PyCons.
+Andrii boasts expertise as a Python and Golang software engineer with strong focus on DevOps. He is Speaker at many PyCons.
 He has deep knowledge of backend development and really understands how to assess and improve project quality. 
 He likes to solve difficult tasks, algorithms and take part in sport programming contests. 
-He's also interested in databases and unix based operating systems and has fallen in love with natural language processing and text mining.
+He's also interested in cloud systems, databases and unix based operating systems and has fallen in love with natural language processing and text mining.
 
 ## Computer skills:
 Category | Skills
 ------------ | -------------
 Operating Systems | Unix, Linux, Solaris, SunOS, CentOS, Ubuntu, OS X
-Programming languages | Python, C, C++, Golang, JavaScript, Ruby
-Unix shell scripting | awk, sed, grep, vim
-Databases | Oracle SQL, SQL:99, Oracle, PostgreSQL, MySQL
+Programming languages | Python, Golang, C, Ruby
+Unix shell scripting | awk, sed, grep, vim, tmux
+Databases | PostgreSQL, MySQL, Oracle SQL, SQL:99, Oracle
 Full text search | PostgreSQL FTS, ElasticSearch, Sphinx, Whoosh
-NoSQL | [Redis](http://redis.io/), MongoDB, memcached
-Networking | TCP/IP, UDP, XMPP, HTTP, HTTPS, REST, DNS, iptables, nmap, tcpdump, Cisco IOS
+NoSQL | redis, MongoDB, memcached, neo4j, etcd
+Cloud computing | kubernetes, docker, AWS (EC2, Lambda), heroku, GCE, GAE
+Monitoring | prometheus, alertmanager, grafana
+Networking | TCP, UDP, XMPP, HTTP, HTTPS, REST, DNS, iptables, websockets, nmap, tcpdump, Cisco IOS, wireshark
 Web Development | Django, Flask, bottle, twisted, tornado, aiohttp
 CI/CD | Jenkins, TeamCity, fabric, Vagrant, Docker, Ansible, docker, VPS
-Version control systems: | Git, SVN
-Engineering Software | Matlab, numpy, scipy, nltk
+Version control systems: | Git, SVN, github flow, gitflow, gitlab, gerrit code review
+Engineering Software | nltk, ner, matlab, numpy, scipy, pandas
 Software | nginx, gunicorn, celery, openssl, GeoIP, heroku, github
 Libraries/APIs
 
 ## Professional experience:
-`04/2016 - present` - **CTO at Ethoos, remote**
+`03/2018 - present` - **DevOps Engineer/Back-end developer (IaaS) at Motorola Solutions, remote**
+
+>Motorola Solutions is a leader in mission-critical communications products, solutions & services for communities & businesses. Learn more!
+
+- Implement different DevOps tools
+- perfromance testing prometheus, and kubernetes
+- improve pyhelm to support Python3
+- create etcd backup system.
+
+`09/2017 - 12/2017` - **Golang Software Engineer/DevOps at Loodse, remote**
+
+>Loodse develops software that makes it easy to deploy and manage multiple container clusters in any organization.
+
+- Design and implement OpenAPI for https://loodse.com/
+- Contribute OpenAPI v3 specification;
+
+`02/2017 - present` - **CTO at Moonshot Capital, remote**
+
+>We help mobile app developers and e-commerce merchants round the world grow faster by giving them early access to their revenues from Apple, Google, Amazon and other platforms:
+
+- Design and implement https://goformoonshot.com/ 
+- Design database and full text search for about `2*10^6` records, some tables > `300*10^6`
+- Design and implement ETL for mobile app statistics
+
+`04/2016 - 02/2017` - **CTO at Ethoos, remote**
 
 >Ethoos helps you find the right person for the position. Whether you're interested in hiring, promoting or partnering with a potential candidate - Ethoos™ enables you to discover the accurate personality profile of a candidate by analyzing the different psychological features of their personality expressed specifically in relation to job performance:
 
